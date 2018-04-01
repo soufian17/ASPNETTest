@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETTest", "ASPNETTest\ASPNETTest.csproj", "{D2400140-9FB0-488B-8C21-325E52ED64D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2400140-9FB0-488B-8C21-325E52ED64D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2400140-9FB0-488B-8C21-325E52ED64D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2400140-9FB0-488B-8C21-325E52ED64D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2400140-9FB0-488B-8C21-325E52ED64D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F90CD0D-318A-4636-AD2D-8C5A950DAF6E}
+	EndGlobalSection
+EndGlobal
