@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
+using System.Web.Helpers;
 using System.Web.Mvc;
 using ASPNETTest.Models;
 using ASPNETTest.ViewModels;
@@ -84,6 +86,7 @@ namespace ASPNETTest.Controllers
             {
                 var model = new ReservationViewModel()
                 {
+                    ReservationId = reservation.Reservation.Id,
                     Room = reservation.Room,
                     RoomId = reservation.Reservation.RoomId,
                     StartTime = reservation.Reservation.Start,
@@ -95,6 +98,14 @@ namespace ASPNETTest.Controllers
             
             return View(returnList);
         }
+
+        [HttpPost]
+        public ActionResult updateDescription(int id,string description)
+        {
+            Console.WriteLine(id+"  "+description);
+            return null;
+        }
+
         [HttpPost]
         public ActionResult UpdateReservations(FormCollection collection)
         {
